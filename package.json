@@ -1,0 +1,24 @@
+{
+  "name": "chacebot",
+  "version": "1.0.0",
+  "description": "A sample facebook messenger bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinezenwosu/chacebot.git"
+  },
+  "keywords": [
+    "bot",
+    "messenger",
+    "chat"
+  ],
+  "author": "Chineze Nwosu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinezenwosu/chacebot/issues"
+  },
+  "homepage": "https://github.com/chinezenwosu/chacebot#readme"
+}
