@@ -27,11 +27,12 @@ function handleMessage(req, res) {
   for (i = 0; i < messagingEvents.length; i++) {
     event = req.body.entry[0].messaging[i]
     sender = event.sender.id;
+    console.log("sender ===========================================", event.sender)
 
     if (event.message && event.message.text) {
       text = event.message.text
       messages.push(text)
-      apis.sendHelp(sender)
+      // apis.sendHelp(sender)
     }
   }
 
